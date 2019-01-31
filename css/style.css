@@ -119,7 +119,7 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 20px 0;
-  background: #ffffff1a;
+  background: white;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
@@ -161,7 +161,7 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/intro-bg4.png") center bottom no-repeat;
+  background: url("../img/intro-bg9.png") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
 }
@@ -178,7 +178,7 @@ h6 {
 }
 
 #intro .intro-info h2 {
-  color: #fff;
+  color: #000;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 600;
@@ -216,7 +216,8 @@ h6 {
 }
 
 #intro .intro-info .btn-learn {
-  border: 2px solid #fff;
+  border: 2px solid #EF12F4;
+  color: #EF12F4;
 }
 
 #intro .intro-info .btn-learn:hover {
@@ -395,7 +396,7 @@ h6 {
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
-  color: #fff;
+  color: #312e3a;
   width: 50%;
 }
 
@@ -403,7 +404,7 @@ h6 {
 --------------------------------*/
 
 .section-bg {
-  background: #392c4e;
+  background: linear-gradient(#0000ff0a, #e7c0ff2e);
 }
 
 /* getinvolved Us Section
