@@ -438,9 +438,12 @@ h6 {
 }
 
 #getinvolved .getinvolved-container .icon-box {
+  display: block;
+  color: black;
   background: #fff;
   background-size: cover;
   padding: 0 0 30px 0;
+  height: 100px;
 }
 
 #getinvolved .getinvolved-container .icon-box .icon {
@@ -519,6 +522,8 @@ h6 {
 }
 
 #learn .box {
+  color: black;
+  display: block;
   padding: 30px;
   position: relative;
   overflow: hidden;
