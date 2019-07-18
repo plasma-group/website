@@ -86,36 +86,19 @@ c<!DOCTYPE html>
     <!--==========================
       Get involved section
     ============================-->
-    <section id="getinvolved" class="section-bg">
+    <section id="blog">
       <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            <a href="https://medium.com/@plasma_group/deployplasma-dd1cf0b2ab55" class="box">
-              <h4 class="title">Read</h4>
-              <p class="description">
-                Browse through our blog posts for a mix of high level overviews on our technology, and in depth technical explanations.
-              </p>
-            </a>
-          </div>
-          <div class="col-sm">
-            <a href="https://medium.com/plasma-group/introducing-the-ovm-db253287af50" class="box">
-              <h4 class="title">Discuss</h4>
-              <p class="description">
-                Have ideas about plasma research? Questions? Pop by our forum and feel free to make a post. Or you can grab a cup of coffee and just lurk.
-              </p>
-            </a>
-          </div>
-          <div class="col-sm">
-            <a href="https://medium.com/plasma-group/introducing-the-ovm-db253287af50" class="box">
-              <h4 class="title">Watch</h4>
-              <p class="description">
-                All plasma implementers calls are recorded for the public. You can view them here!
-              </p>
-            </a>
-           </div>
+        <div id="retainable-rss-embed" 
+          data-rss="https://medium.com/feed/plasma-group/"
+          data-maxcols="3" 
+          data-layout="grid" 
+          data-poststyle="inline" 
+          data-readmore="Read the rest" 
+          data-buttonclass="btn btn-primary" 
+          data-offset="-100">
         </div>
       </div>
-    </section><!-- #getinvolved -->
+    </section>
 
     <!--==========================
       donors Section
@@ -239,6 +222,18 @@ c<!DOCTYPE html>
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
+<!--   <script type="text/javascript">
+    setTimeout(function(){
+      var paras = document.getElementsByClassName('author');
 
+      while(paras[0]) {paras[0].parentNode.removeChild(paras[0]);}
+
+      var meow = document.getElementsByTagName('figcaption');
+
+      while(meow[0]) {meow[0].parentNode.removeChild(meow[0]);}
+    }, 1000)
+  </script>
+ -->
 </body>
 </html>
