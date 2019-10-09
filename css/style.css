@@ -341,12 +341,12 @@ h6 {
 }
 
 #about .about-container .icon-box .icon i {
-  color: #007bff;
+  color: #d60000;
   font-size: 24px;
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #007bff;
+  background: #d60000;
 }
 
 #about .about-container .icon-box:hover .icon i {
@@ -361,7 +361,7 @@ h6 {
 }
 
 #about .about-container .icon-box .title a {
-  color: #283d50;
+  color: #d60000;
 }
 
 #about .about-container .icon-box .description {
